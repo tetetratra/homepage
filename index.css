@@ -118,25 +118,48 @@ body {
   background-color: #CFD;
   position: relative;
 }
+
+.icon-qeq {
+  position: absolute;
+  width: 80px;
+  border-radius: 10px;
+  top: 50px;
+  left: 15%;
+}
+.qeq-title {
+  position: absolute;
+  top: 25px;
+  left: 32%;
+  font-size: 1.5em;
+}
+.qeq-description {
+  position: absolute;
+  color: #024;
+  top: 75px;
+  width: 60%;
+  left: 31%;
+  font-size: 1em;
+}
+
 .icon-biotter {
   position: absolute;
   width: 80px;
   border-radius: 10px;
-  top: 110px;
-  left: 20%;
+  top: 170px;
+  left: 15%;
 }
 .biotter-title {
   position: absolute;
-  top: 85px;
-  left: 37%;
+  top: 145px;
+  left: 32%;
   font-size: 1.5em;
 }
 .biotter-description {
   position: absolute;
   color: #024;
-  top: 135px;
-  width: 50%;
-  left: 37%;
+  top: 195px;
+  width: 60%;
+  left: 32%;
   font-size: 1em;
 }
 
