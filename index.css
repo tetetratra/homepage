@@ -119,20 +119,20 @@ body {
   position: relative;
 }
 
-.icon-qeq {
+.icon-searchsearch {
   position: absolute;
   width: 80px;
   border-radius: 10px;
   top: 50px;
   left: 15%;
 }
-.qeq-title {
+.searchsearch-title {
   position: absolute;
   top: 25px;
   left: 32%;
   font-size: 1.5em;
 }
-.qeq-description {
+.searchsearch-description {
   position: absolute;
   color: #024;
   top: 75px;
