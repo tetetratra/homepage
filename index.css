@@ -77,41 +77,39 @@ body {
   height: 60px;
   margin: 0 15px;
 }
-.link-twitter:hover:after {
+.link-blog {
+  margin: auto auto auto -15px;
+}
+.link-twitter-text {
   color: black;
-  content: "Twitter";
   position: absolute;
   top: 70px;
   left: 15px;
 }
-.link-github:hover:after {
+.link-github-text {
   color: black;
-  content: "GitHub";
   position: absolute;
   top: 70px;
   left: 112px;
 }
-.link-qiita:hover:after {
+.link-qiita-text {
   color: black;
-  content: "Qiita";
   position: absolute;
   top: 70px;
   left: 215px;
 }
-.link-scrapbox:hover:after {
+.link-scrapbox-text {
   color: black;
   white-space: pre;
-  content: "Scrapbox\A(技術メモ)";
   position: absolute;
   top: 70px;
   left: 285px;
 }
-.link-blog:hover:after {
+.link-blog-text {
   color: black;
-  content: "ブログ";
   position: absolute;
   top: 70px;
-  left: 410px;
+  left: 400px;
 }
 
 .item:nth-child(5) {
