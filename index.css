@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #FAFDEA;
+  background-color: #FFE;
   font-family: 'Recursive', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
   height: 300px;
   margin-bottom: 10px;
   background-color: lightgray;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .item:nth-child(4n+1) {
   width: 600px;
@@ -39,16 +39,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #BFB;
+  background-color: #DFD;
 }
 .title-text {
   font-size: 3em;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
-  color: black;
+  color: #222;
 }
 .item:nth-child(2) {
-  background-color: #BFE;
+  background-color: #EFF;
 }
 
 .item:nth-child(3) {
@@ -57,14 +57,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #BFF;
+  background-color: #DFF;
 }
 
 .item:nth-child(4) {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9EB;
+  background-color: #DFE;
 }
 .icon {
   position: relative;
@@ -81,39 +81,39 @@ body {
   margin: auto auto auto -15px;
 }
 .link-twitter-text {
-  color: black;
+  color: #222;
   position: absolute;
   top: 70px;
   left: 15px;
 }
 .link-github-text {
-  color: black;
+  color: #222;
   position: absolute;
   top: 70px;
   left: 112px;
 }
 .link-qiita-text {
-  color: black;
+  color: #222;
   position: absolute;
   top: 70px;
   left: 215px;
 }
 .link-scrapbox-text {
-  color: black;
+  color: #222;
   white-space: pre;
   position: absolute;
   top: 70px;
   left: 285px;
 }
 .link-blog-text {
-  color: black;
+  color: #222;
   position: absolute;
   top: 70px;
   left: 400px;
 }
 
 .item:nth-child(5) {
-  background-color: #CFD;
+  background-color: #EFE;
   position: relative;
 }
 
@@ -167,7 +167,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #DEA;
+  background-color: #FFD;
 }
 .item:nth-child(7) {
   font-size: 2.5em;
@@ -175,11 +175,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FEB;
+  background-color: #FEF;
 }
 
 .item:nth-child(8) {
-  background-color: #CEB;
+  background-color: #EFD;
 }
 .carrer {
   margin: 40px;
@@ -195,4 +195,3 @@ body {
 .carrer-description {
   color: #233;
 }
-
