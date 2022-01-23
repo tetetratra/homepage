@@ -78,7 +78,7 @@ body {
   margin: 0 15px;
 }
 .link-blog {
-  margin: auto auto auto -15px;
+  margin: auto auto auto -20px;
 }
 .link-twitter-text {
   color: #222;
@@ -98,18 +98,11 @@ body {
   top: 70px;
   left: 215px;
 }
-.link-scrapbox-text {
-  color: #222;
-  white-space: pre;
-  position: absolute;
-  top: 70px;
-  left: 285px;
-}
 .link-blog-text {
   color: #222;
   position: absolute;
   top: 70px;
-  left: 400px;
+  left: 320px;
 }
 
 .item:nth-child(5) {
