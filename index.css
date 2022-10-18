@@ -66,6 +66,20 @@ body {
   justify-content: center;
   background-color: #DFE;
 }
+.terminal {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 7px;
+  font-size: 1em;
+  color: transparent;
+}
+.terminal:hover {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #555;
+}
+
 .icon {
   position: relative;
 }
@@ -110,45 +124,64 @@ body {
   position: relative;
 }
 
+.work-link {
+  text-decoration: none;
+  color: #222;
+}
+.minilisp-title {
+  position: absolute;
+  top: 10px;
+  left: 32%;
+  font-size: 1.5em;
+}
+.minilisp-description {
+  position: absolute;
+  color: #024;
+  top: 50px;
+  width: 60%;
+  left: 32%;
+  font-size: 1em;
+}
+
 .icon-searchsearch {
   position: absolute;
-  width: 80px;
+  width: 70px;
   border-radius: 10px;
-  top: 50px;
+  top: 110px;
   left: 15%;
 }
 .searchsearch-title {
   position: absolute;
-  top: 25px;
+  top: 80px;
   left: 32%;
   font-size: 1.5em;
 }
 .searchsearch-description {
   position: absolute;
   color: #024;
-  top: 75px;
+  top: 120px;
   width: 60%;
-  left: 31%;
+  left: 32%;
   font-size: 1em;
 }
 
 .icon-biotter {
   position: absolute;
-  width: 80px;
+  width: 70px;
   border-radius: 10px;
-  top: 170px;
+  top: 200px;
   left: 15%;
 }
 .biotter-title {
   position: absolute;
-  top: 145px;
+  top: 175px;
   left: 32%;
   font-size: 1.5em;
 }
 .biotter-description {
   position: absolute;
   color: #024;
-  top: 195px;
+  top: 215px;
   width: 60%;
   left: 32%;
   font-size: 1em;
@@ -175,16 +208,19 @@ body {
   background-color: #EFD;
 }
 .carrer {
-  margin: 40px;
+  margin: 35px;
 }
 .carrer-term {
   font-size: 0.8em;
 }
 .carrer-company {
   font-size: 1.2em;
+  width: 170px;
   color: #23E;
   text-decoration: none;
+  display: inline-block;
 }
 .carrer-description {
   color: #233;
+  display: inline-block;
 }
