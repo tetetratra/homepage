@@ -48,7 +48,7 @@ body {
   color: #222;
 }
 .item:nth-child(2) {
-  background-color: #EFF;
+  background-color: #EEE;
 }
 
 .item:nth-child(3) {
@@ -69,15 +69,71 @@ body {
 .terminal {
   width: 100%;
   height: 100%;
-  margin-left: 10px;
-  margin-top: 7px;
-  font-size: 1em;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 2em;
   color: transparent;
 }
-.terminal:hover {
+.terminal .gt {
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   color: #555;
+}
+.terminal:hover .welcome:after {
+  content: 'welcome to \\\Atetetratra.net!';
+  white-space: pre;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #555;
+  animation: welcome 12s linear 1;
+}
+
+@keyframes welcome {
+  0%,20%   { content: '';              }
+  22%      { content: 'w';             }
+  23%      { content: 'we';            }
+  24%      { content: 'wel';           }
+  25%      { content: 'welc';          }
+  26%      { content: 'welco';         }
+  27%      { content: 'welcom';        }
+  28%      { content: 'welcome';        }
+  29%,39%  { content: 'welcome ';       }
+  40%      { content: 'welcome t';      }
+  41%      { content: 'welcome to';     }
+  42%      { content: 'welcome to ';     }
+  43%      { content: 'welcome to \\';     }
+  44%,54%  { content: 'welcome to \\\A';     }
+  54%      { content: 'welcome to \\\A';    }
+  55%      { content: 'welcome to \\\At';    }
+  56%      { content: 'welcome to \\\Ate';   }
+  57%      { content: 'welcome to \\\Atet';  }
+  58%      { content: 'welcome to \\\Atete';  }
+  59%      { content: 'welcome to \\\Atetet';  }
+  60%      { content: 'welcome to \\\Atetetr';  }
+  61%      { content: 'welcome to \\\Atetetra';  }
+  62%      { content: 'welcome to \\\Atetetrat';  }
+  63%      { content: 'welcome to \\\Atetetratr';  }
+  64%,70%  { content: 'welcome to \\\Atetetratra';  }
+  71%      { content: 'welcome to \\\Atetetratra.';  }
+  72%      { content: 'welcome to \\\Atetetratra.n';  }
+  73%      { content: 'welcome to \\\Atetetratra.ne';  }
+  74%      { content: 'welcome to \\\Atetetratra.net';  }
+  75%,100% { content: 'welcome to \\\Atetetratra.net!';  }
+}
+
+.terminal:hover .uline {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #555;
+  animation: flash 1s linear infinite;
+}
+@keyframes flash {
+  0%,50% {
+    opacity: 0;
+  }
+  51%,100% {
+    opacity: 1;
+  }
 }
 
 .icon {
